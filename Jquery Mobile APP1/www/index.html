@@ -17,22 +17,20 @@
     <div data-role="page" data-theme="b" id="one">
         <div data-role="header">
             <div data-role="controlgroup" data-type="horizontal" class="ui-mini ui-btn-left">
-            <a href="index.html" data-rel="back" class="ui-btn ui-btn-icon-right ui-icon-back">Home</a>
+            <a href="index.html" data-rel="back" class="ui-btn ui-btn-icon-right ui-icon-home">Home</a>
             </div>
             <h1>Heroes Info</h1>
         </div>
-        <div data-role="collapsible" role="main" data-collapsed-icon="grid" data-mini="true" id="menu">
-            <h4>MENU</h4>
-            <ul data-role="listview">
-                <li><a href="#" id="suporte1">Suporte</a>
-                </li>
-                <li><a href="#" id="guerreiro1">Guerreiro</a>
-                </li>
-                <li><a href="#" id="especialista1">Especialista</a>
-                </li>
-                <li><a href="#" id="assassino1">Assassino</a>
-                </li>
+
+        <div data-role="tabs" id="tabs">
+          <div data-role="navbar" id="menu">
+            <ul>
+              <li><a href="#" id="suporte1" data-ajax="false" data-icon="heart">Suporte</a></li>
+              <li><a href="#" id="guerreiro1" data-ajax="false" data-icon="cloud">Guerreiro</a></li>
+              <li><a href="#" id="especialista1" data-ajax="false" data-icon="star">Especialista</a></li>
+              <li><a href="#" id="assassino1" data-ajax="false" data-icon="eye">Assassino</a></li>
             </ul>
+          </div>
         </div>
         <div data-role="content" class="conteudo" id="replacement-target">
             <img id="logo"src="img/fundo.jpg" >
