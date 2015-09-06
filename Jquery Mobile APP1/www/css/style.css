@@ -1,15 +1,12 @@
 body{
 		 	font-family: 'Delicious', serif;
 }
-
-
 .conteudo h3{
 	text-align: center;
 	color: #ffffcc;
 	border: none;
 	text-shadow: none;
 }
-
 .conteudo{
 	 background-color:#8c4689;
 	 background-image:-moz-linear-gradient(right, #680873 41%, #052afc 100%);
@@ -18,14 +15,11 @@ body{
 	 background-image:linear-gradient(right, #680873 41%, #052afc 100%);
 	 background-image:-o-linear-gradient(right, #680873 41%, #052afc 100%);
 	 background-image:-webkit-gradient(linear, right bottom, left bottom, color-stop(41%,#680873), color-stop(100%,#052afc));
-
 }
-
 #logo{
 	width: 100%;
 	height: 100%;
 }
-
 #heroi{
     float:none; 
     display:block; 
@@ -63,4 +57,3 @@ body{
 #menu a{
 	font-size: 0.65em;
 }
-
