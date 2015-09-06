@@ -57,7 +57,5 @@ body{
 	 background-image:-o-linear-gradient(right, #680873 41%, #052afc 100%);
 	 background-image:-webkit-gradient(linear, right bottom, left bottom, color-stop(41%,#680873), color-stop(100%,#052afc));
 }
-#menu a{
-	font-size: 0.65em;
-}
+
 
